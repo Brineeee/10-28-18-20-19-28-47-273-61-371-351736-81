@@ -1,0 +1,1438 @@
+local Luxtl = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Luxware-UI-Library/main/Source.lua"))()
+
+local Luxt = Luxtl.CreateWindow("SkeleHub", 0) 
+
+local mainTab = Luxt:Tab("Farms", "rbxthumb://type=Asset&id=5107182114&w=150&h=150")
+local eggTab = Luxt:Tab("Eggs", "rbxthumb://type=Asset&id=5107182114&w=150&h=150" )
+local miscTab = Luxt:Tab("Miscs", "rbxthumb://type=Asset&id=5107182114&w=150&h=150")
+
+local new77 = mainTab:Section("Farms | Auto Farm")
+new77:Button("How to use : Rename pet to 1,2,3,4 ", function() loadstring(game:HttpGet("https://raw.githubusercontent.com/Brineeee/autofarm/main/lua-to-obfuscate"))() 
+end)
+
+local new777 = eggTab:Section("Eggs | Normal") 
+
+new777:Button("Stop Hatch", function()
+local eggName="Air Egg" -- Set to the egg you want to hatch
+local TripleHatch=false -- Set to true if you want triple hatch (gamepass needed)
+_G.Stop=true -- Set to true to stop the script.
+
+
+local eggRemote=game: GetService ("Workspace")["__THINGS"]["__REMOTES"]["buy egg"]
+
+while wait () do
+    eggRemote:InvokeServer({eggName, TripleHatch})
+    if _G.Stop then
+        break
+    end
+end
+end) 
+
+new777:Button("Cracked Egg", function()
+local eggName="Cracked Egg" -- Set to the egg you want to hatch
+local TripleHatch=false -- Set to true if you want triple hatch (gamepass needed)
+_G.Stop=false -- Set to true to stop the script.
+
+
+local eggRemote=game: GetService ("Workspace")["__THINGS"]["__REMOTES"]["buy egg"]
+
+while wait () do
+    eggRemote:InvokeServer({eggName, TripleHatch})
+    if _G.Stop then
+        break
+    end
+end
+end) 
+
+new777:Button("Spotted Egg", function()
+local eggName="Spotted Egg" -- Set to the egg you want to hatch
+local TripleHatch=false -- Set to true if you want triple hatch (gamepass needed)
+_G.Stop=false -- Set to true to stop the script.
+
+
+local eggRemote=game: GetService ("Workspace")["__THINGS"]["__REMOTES"]["buy egg"]
+
+while wait () do
+    eggRemote:InvokeServer({eggName, TripleHatch})
+    if _G.Stop then
+        break
+    end
+end
+end) 
+
+new777:Button("Wood Egg", function()
+local eggName="Wood Egg" -- Set to the egg you want to hatch
+local TripleHatch=false -- Set to true if you want triple hatch (gamepass needed)
+_G.Stop=false -- Set to true to stop the script.
+
+
+local eggRemote=game: GetService ("Workspace")["__THINGS"]["__REMOTES"]["buy egg"]
+
+while wait () do
+    eggRemote:InvokeServer({eggName, TripleHatch})
+    if _G.Stop then
+        break
+    end
+end
+end) 
+
+new777:Button("Grass Egg", function()
+local eggName="Grass Egg" -- Set to the egg you want to hatch
+local TripleHatch=false -- Set to true if you want triple hatch (gamepass needed)
+_G.Stop=false -- Set to true to stop the script.
+
+
+local eggRemote=game: GetService ("Workspace")["__THINGS"]["__REMOTES"]["buy egg"]
+
+while wait () do
+    eggRemote:InvokeServer({eggName, TripleHatch})
+    if _G.Stop then
+        break
+    end
+end
+end) 
+
+new777:Button("Beachball Egg", function()
+local eggName="Beachball Egg" -- Set to the egg you want to hatch
+local TripleHatch=false -- Set to true if you want triple hatch (gamepass needed)
+_G.Stop=false -- Set to true to stop the script.
+
+
+local eggRemote=game: GetService ("Workspace")["__THINGS"]["__REMOTES"]["buy egg"]
+
+while wait () do
+    eggRemote:InvokeServer({eggName, TripleHatch})
+    if _G.Stop then
+        break
+    end
+end
+end) 
+
+new777:Button("Coconut Egg", function()
+local eggName="Coconut Egg" -- Set to the egg you want to hatch
+local TripleHatch=false -- Set to true if you want triple hatch (gamepass needed)
+_G.Stop=false -- Set to true to stop the script.
+
+
+local eggRemote=game: GetService ("Workspace")["__THINGS"]["__REMOTES"]["buy egg"]
+
+while wait () do
+    eggRemote:InvokeServer({eggName, TripleHatch})
+    if _G.Stop then
+        break
+    end
+end
+end) 
+
+new777:Button("Rock Egg", function()
+local eggName="Rock Egg" -- Set to the egg you want to hatch
+local TripleHatch=false -- Set to true if you want triple hatch (gamepass needed)
+_G.Stop=false -- Set to true to stop the script.
+
+
+local eggRemote=game: GetService ("Workspace")["__THINGS"]["__REMOTES"]["buy egg"]
+
+while wait () do
+    eggRemote:InvokeServer({eggName, TripleHatch})
+    if _G.Stop then
+        break
+    end
+end
+end) 
+
+new777:Button("Geode Egg", function()
+local eggName="Geode Egg" -- Set to the egg you want to hatch
+local TripleHatch=false -- Set to true if you want triple hatch (gamepass needed)
+_G.Stop=false -- Set to true to stop the script.
+
+
+local eggRemote=game: GetService ("Workspace")["__THINGS"]["__REMOTES"]["buy egg"]
+
+while wait () do
+    eggRemote:InvokeServer({eggName, TripleHatch})
+    if _G.Stop then
+        break
+    end
+end
+end) 
+
+new777:Button("Snow Egg", function()
+local eggName="Snow Egg" -- Set to the egg you want to hatch
+local TripleHatch=false -- Set to true if you want triple hatch (gamepass needed)
+_G.Stop=false -- Set to true to stop the script.
+
+
+local eggRemote=game: GetService ("Workspace")["__THINGS"]["__REMOTES"]["buy egg"]
+
+while wait () do
+    eggRemote:InvokeServer({eggName, TripleHatch})
+    if _G.Stop then
+        break
+    end
+end
+end) 
+
+new777:Button("Ice Egg", function()
+local eggName="Ice Egg" -- Set to the egg you want to hatch
+local TripleHatch=false -- Set to true if you want triple hatch (gamepass needed)
+_G.Stop=false -- Set to true to stop the script.
+
+
+local eggRemote=game: GetService ("Workspace")["__THINGS"]["__REMOTES"]["buy egg"]
+
+while wait () do
+    eggRemote:InvokeServer({eggName, TripleHatch})
+    if _G.Stop then
+        break
+    end
+end
+end) 
+
+new777:Button("Icicle Egg", function()
+local eggName="Icicle Egg" -- Set to the egg you want to hatch
+local TripleHatch=false -- Set to true if you want triple hatch (gamepass needed)
+_G.Stop=false -- Set to true to stop the script.
+
+
+local eggRemote=game: GetService ("Workspace")["__THINGS"]["__REMOTES"]["buy egg"]
+
+while wait () do
+    eggRemote:InvokeServer({eggName, TripleHatch})
+    if _G.Stop then
+        break
+    end
+end
+end) 
+
+new777:Button("Yeti Egg", function()
+local eggName="Yeti Egg" -- Set to the egg you want to hatch
+local TripleHatch=false -- Set to true if you want triple hatch (gamepass needed)
+_G.Stop=false -- Set to true to stop the script.
+
+
+local eggRemote=game: GetService ("Workspace")["__THINGS"]["__REMOTES"]["buy egg"]
+
+while wait () do
+    eggRemote:InvokeServer({eggName, TripleHatch})
+    if _G.Stop then
+        break
+    end
+end
+end) 
+
+new777:Button("Cactus Egg", function()
+local eggName="Cactus Egg" -- Set to the egg you want to hatch
+local TripleHatch=false -- Set to true if you want triple hatch (gamepass needed)
+_G.Stop=false -- Set to true to stop the script.
+
+
+local eggRemote=game: GetService ("Workspace")["__THINGS"]["__REMOTES"]["buy egg"]
+
+while wait () do
+    eggRemote:InvokeServer({eggName, TripleHatch})
+    if _G.Stop then
+        break
+    end
+end
+end) 
+
+new777:Button("Spiked Egg", function()
+local eggName="Spiked Egg" -- Set to the egg you want to hatch
+local TripleHatch=false -- Set to true if you want triple hatch (gamepass needed)
+_G.Stop=false -- Set to true to stop the script.
+
+
+local eggRemote=game: GetService ("Workspace")["__THINGS"]["__REMOTES"]["buy egg"]
+
+while wait () do
+    eggRemote:InvokeServer({eggName, TripleHatch})
+    if _G.Stop then
+        break
+    end
+end
+end) 
+
+new777:Button("Obsidian Egg", function()
+local eggName="Obsidian Egg" -- Set to the egg you want to hatch
+local TripleHatch=false -- Set to true if you want triple hatch (gamepass needed)
+_G.Stop=false -- Set to true to stop the script.
+
+
+local eggRemote=game: GetService ("Workspace")["__THINGS"]["__REMOTES"]["buy egg"]
+
+while wait () do
+    eggRemote:InvokeServer({eggName, TripleHatch})
+    if _G.Stop then
+        break
+    end
+end
+end)
+
+new777:Button("Magma Egg", function()
+local eggName="Magma Egg" -- Set to the egg you want to hatch
+local TripleHatch=false -- Set to true if you want triple hatch (gamepass needed)
+_G.Stop=false -- Set to true to stop the script.
+
+
+local eggRemote=game: GetService ("Workspace")["__THINGS"]["__REMOTES"]["buy egg"]
+
+while wait () do
+    eggRemote:InvokeServer({eggName, TripleHatch})
+    if _G.Stop then
+        break
+    end
+end
+end) 
+
+new777:Button("Enchanted Egg", function()
+local eggName="Enchanted Egg" -- Set to the egg you want to hatch
+local TripleHatch=false -- Set to true if you want triple hatch (gamepass needed)
+_G.Stop=false -- Set to true to stop the script.
+
+
+local eggRemote=game: GetService ("Workspace")["__THINGS"]["__REMOTES"]["buy egg"]
+
+while wait () do
+    eggRemote:InvokeServer({eggName, TripleHatch})
+    if _G.Stop then
+        break
+    end
+end
+end) 
+
+new777:Button("Relic Egg", function()
+local eggName="Relic Egg" -- Set to the egg you want to hatch
+local TripleHatch=false -- Set to true if you want triple hatch (gamepass needed)
+_G.Stop=false -- Set to true to stop the script.
+
+
+local eggRemote=game: GetService ("Workspace")["__THINGS"]["__REMOTES"]["buy egg"]
+
+while wait () do
+    eggRemote:InvokeServer({eggName, TripleHatch})
+    if _G.Stop then
+        break
+    end
+end
+end) 
+
+new777:Button("Samurai Egg", function()
+local eggName="Samurai Egg" -- Set to the egg you want to hatch
+local TripleHatch=false -- Set to true if you want triple hatch (gamepass needed)
+_G.Stop=false -- Set to true to stop the script.
+
+
+local eggRemote=game: GetService ("Workspace")["__THINGS"]["__REMOTES"]["buy egg"]
+
+while wait () do
+    eggRemote:InvokeServer({eggName, TripleHatch})
+    if _G.Stop then
+        break
+    end
+end
+end) 
+
+new777:Button("Haunted Egg", function()
+local eggName="Haunted Egg" -- Set to the egg you want to hatch
+local TripleHatch=false -- Set to true if you want triple hatch (gamepass needed)
+_G.Stop=false -- Set to true to stop the script.
+
+
+local eggRemote=game: GetService ("Workspace")["__THINGS"]["__REMOTES"]["buy egg"]
+
+while wait () do
+    eggRemote:InvokeServer({eggName, TripleHatch})
+    if _G.Stop then
+        break
+    end
+end
+end) 
+
+new777:Button("Hell Egg", function()
+local eggName="Hell Egg" -- Set to the egg you want to hatch
+local TripleHatch=false -- Set to true if you want triple hatch (gamepass needed)
+_G.Stop=false -- Set to true to stop the script.
+
+
+local eggRemote=game: GetService ("Workspace")["__THINGS"]["__REMOTES"]["buy egg"]
+
+while wait () do
+    eggRemote:InvokeServer({eggName, TripleHatch})
+    if _G.Stop then
+        break
+    end
+end
+end) 
+
+new777:Button("Heaven Egg", function()
+local eggName="Heaven Egg" -- Set to the egg you want to hatch
+local TripleHatch=false -- Set to true if you want triple hatch (gamepass needed)
+_G.Stop=false -- Set to true to stop the script.
+
+
+local eggRemote=game: GetService ("Workspace")["__THINGS"]["__REMOTES"]["buy egg"]
+
+while wait () do
+    eggRemote:InvokeServer({eggName, TripleHatch})
+    if _G.Stop then
+        break
+    end
+end
+end) 
+
+new777:Button("Empyrean Egg", function()
+local eggName="Empyrean Egg" -- Set to the egg you want to hatch
+local TripleHatch=false -- Set to true if you want triple hatch (gamepass needed)
+_G.Stop=false -- Set to true to stop the script.
+
+
+local eggRemote=game: GetService ("Workspace")["__THINGS"]["__REMOTES"]["buy egg"]
+
+while wait () do
+    eggRemote:InvokeServer({eggName, TripleHatch})
+    if _G.Stop then
+        break
+    end
+end
+end) 
+
+new777:Button("Metal Egg", function()
+local eggName="Metal Egg" -- Set to the egg you want to hatch
+local TripleHatch=false -- Set to true if you want triple hatch (gamepass needed)
+_G.Stop=false -- Set to true to stop the script.
+
+
+local eggRemote=game: GetService ("Workspace")["__THINGS"]["__REMOTES"]["buy egg"]
+
+while wait () do
+    eggRemote:InvokeServer({eggName, TripleHatch})
+    if _G.Stop then
+        break
+    end
+end
+end) 
+
+new777:Button("Tech Egg", function()
+local eggName="Tech Egg" -- Set to the egg you want to hatch
+local TripleHatch=false -- Set to true if you want triple hatch (gamepass needed)
+_G.Stop=false -- Set to true to stop the script.
+
+
+local eggRemote=game: GetService ("Workspace")["__THINGS"]["__REMOTES"]["buy egg"]
+
+while wait () do
+    eggRemote:InvokeServer({eggName, TripleHatch})
+    if _G.Stop then
+        break
+    end
+end
+end) 
+
+new777:Button("Titanium Egg", function()
+local eggName="Titanium Egg" -- Set to the egg you want to hatch
+local TripleHatch=false -- Set to true if you want triple hatch (gamepass needed)
+_G.Stop=false -- Set to true to stop the script.
+
+
+local eggRemote=game: GetService ("Workspace")["__THINGS"]["__REMOTES"]["buy egg"]
+
+while wait () do
+    eggRemote:InvokeServer({eggName, TripleHatch})
+    if _G.Stop then
+        break
+    end
+end
+end) 
+
+new777:Button("Dark Tech Egg", function()
+local eggName="Dark Tech Egg" -- Set to the egg you want to hatch
+local TripleHatch=false -- Set to true if you want triple hatch (gamepass needed)
+_G.Stop=false -- Set to true to stop the script.
+
+
+local eggRemote=game: GetService ("Workspace")["__THINGS"]["__REMOTES"]["buy egg"]
+
+while wait () do
+    eggRemote:InvokeServer({eggName, TripleHatch})
+    if _G.Stop then
+        break
+    end
+end
+end) 
+
+new777:Button("Steampunk Egg", function()
+local eggName="Steampunk Egg" -- Set to the egg you want to hatch
+local TripleHatch=false -- Set to true if you want triple hatch (gamepass needed)
+_G.Stop=false -- Set to true to stop the script.
+
+
+local eggRemote=game: GetService ("Workspace")["__THINGS"]["__REMOTES"]["buy egg"]
+
+while wait () do
+    eggRemote:InvokeServer({eggName, TripleHatch})
+    if _G.Stop then
+        break
+    end
+end
+end) 
+
+new777:Button("Mechanical Egg", function()
+local eggName="Mechanical Egg" -- Set to the egg you want to hatch
+local TripleHatch=false -- Set to true if you want triple hatch (gamepass needed)
+_G.Stop=false -- Set to true to stop the script.
+
+
+local eggRemote=game: GetService ("Workspace")["__THINGS"]["__REMOTES"]["buy egg"]
+
+while wait () do
+    eggRemote:InvokeServer({eggName, TripleHatch})
+    if _G.Stop then
+        break
+    end
+end
+end) 
+
+new777:Button("Lab Egg", function()
+local eggName="Lab Egg" -- Set to the egg you want to hatch
+local TripleHatch=false -- Set to true if you want triple hatch (gamepass needed)
+_G.Stop=false -- Set to true to stop the script.
+
+
+local eggRemote=game: GetService ("Workspace")["__THINGS"]["__REMOTES"]["buy egg"]
+
+while wait () do
+    eggRemote:InvokeServer({eggName, TripleHatch})
+    if _G.Stop then
+        break
+    end
+end
+end) 
+
+new777:Button("Chemical Egg", function()
+local eggName="Chemical Egg" -- Set to the egg you want to hatch
+local TripleHatch=false -- Set to true if you want triple hatch (gamepass needed)
+_G.Stop=false -- Set to true to stop the script.
+
+
+local eggRemote=game: GetService ("Workspace")["__THINGS"]["__REMOTES"]["buy egg"]
+
+while wait () do
+    eggRemote:InvokeServer({eggName, TripleHatch})
+    if _G.Stop then
+        break
+    end
+end
+end)
+
+new777:Button("Alien Egg", function()
+local eggName="Alien Egg" -- Set to the egg you want to hatch
+local TripleHatch=false -- Set to true if you want triple hatch (gamepass needed)
+_G.Stop=false -- Set to true to stop the script.
+
+
+local eggRemote=game: GetService ("Workspace")["__THINGS"]["__REMOTES"]["buy egg"]
+
+while wait () do
+    eggRemote:InvokeServer({eggName, TripleHatch})
+    if _G.Stop then
+        break
+    end
+end
+end) 
+
+new777:Button("Martian Egg", function()
+local eggName="Martian Egg" -- Set to the egg you want to hatch
+local TripleHatch=false -- Set to true if you want triple hatch (gamepass needed)
+_G.Stop=false -- Set to true to stop the script.
+
+
+local eggRemote=game: GetService ("Workspace")["__THINGS"]["__REMOTES"]["buy egg"]
+
+while wait () do
+    eggRemote:InvokeServer({eggName, TripleHatch})
+    if _G.Stop then
+        break
+    end
+end
+end) 
+
+new777:Button("Planet Egg", function()
+local eggName="Planet Egg" -- Set to the egg you want to hatch
+local TripleHatch=false -- Set to true if you want triple hatch (gamepass needed)
+_G.Stop=false -- Set to true to stop the script.
+
+
+local eggRemote=game: GetService ("Workspace")["__THINGS"]["__REMOTES"]["buy egg"]
+
+while wait () do
+    eggRemote:InvokeServer({eggName, TripleHatch})
+    if _G.Stop then
+        break
+    end
+end
+end)
+
+new777:Button("Glitch Egg", function()
+local eggName="Glitch Egg" -- Set to the egg you want to hatch
+local TripleHatch=false -- Set to true if you want triple hatch (gamepass needed)
+_G.Stop=false -- Set to true to stop the script.
+
+
+local eggRemote=game: GetService ("Workspace")["__THINGS"]["__REMOTES"]["buy egg"]
+
+while wait () do
+    eggRemote:InvokeServer({eggName, TripleHatch})
+    if _G.Stop then
+        break
+    end
+end
+end)
+
+new777:Button("Hacker Egg", function()
+local eggName="Hacker Egg" -- Set to the egg you want to hatch
+local TripleHatch=false -- Set to true if you want triple hatch (gamepass needed)
+_G.Stop=false -- Set to true to stop the script.
+
+
+local eggRemote=game: GetService ("Workspace")["__THINGS"]["__REMOTES"]["buy egg"]
+
+while wait () do
+    eggRemote:InvokeServer({eggName, TripleHatch})
+    if _G.Stop then
+        break
+    end
+end
+end) 
+
+new777:Button("Axolotl Egg", function()
+local eggName="Axolotl Egg" -- Set to the egg you want to hatch
+local TripleHatch=false -- Set to true if you want triple hatch (gamepass needed)
+_G.Stop=false -- Set to true to stop the script.
+
+
+local eggRemote=game: GetService ("Workspace")["__THINGS"]["__REMOTES"]["buy egg"]
+
+while wait () do
+    eggRemote:InvokeServer({eggName, TripleHatch})
+    if _G.Stop then
+        break
+    end
+end
+end)
+
+new777:Button("Shiny Axolotl Egg", function()
+local eggName="Shiny Axolotl Egg" -- Set to the egg you want to hatch
+local TripleHatch=false -- Set to true if you want triple hatch (gamepass needed)
+_G.Stop=false -- Set to true to stop the script.
+
+
+local eggRemote=game: GetService ("Workspace")["__THINGS"]["__REMOTES"]["buy egg"]
+
+while wait () do
+    eggRemote:InvokeServer({eggName, TripleHatch})
+    if _G.Stop then
+        break
+    end
+end
+end) 
+
+new777:Button("Pixel Egg", function()
+local eggName="Pixel Egg" -- Set to the egg you want to hatch
+local TripleHatch=false -- Set to true if you want triple hatch (gamepass needed)
+_G.Stop=false -- Set to true to stop the script.
+
+
+local eggRemote=game: GetService ("Workspace")["__THINGS"]["__REMOTES"]["buy egg"]
+
+while wait () do
+    eggRemote:InvokeServer({eggName, TripleHatch})
+    if _G.Stop then
+        break
+    end
+end
+end) 
+
+new777:Button("Spotted Pixel Egg", function()
+local eggName="Spotted Pixel Egg" -- Set to the egg you want to hatch
+local TripleHatch=false -- Set to true if you want triple hatch (gamepass needed)
+_G.Stop=false -- Set to true to stop the script.
+
+
+local eggRemote=game: GetService ("Workspace")["__THINGS"]["__REMOTES"]["buy egg"]
+
+while wait () do
+    eggRemote:InvokeServer({eggName, TripleHatch})
+    if _G.Stop then
+        break
+    end
+end
+end)
+
+new777:Button("Rainbow Pixel Egg", function()
+local eggName="Rainbow Pixel Egg" -- Set to the egg you want to hatch
+local TripleHatch=false -- Set to true if you want triple hatch (gamepass needed)
+_G.Stop=false -- Set to true to stop the script.
+
+
+local eggRemote=game: GetService ("Workspace")["__THINGS"]["__REMOTES"]["buy egg"]
+
+while wait () do
+    eggRemote:InvokeServer({eggName, TripleHatch})
+    if _G.Stop then
+        break
+    end
+end
+end) 
+
+local new7777 = eggTab:Section("Eggs | Golden") 
+
+new7777:Button("Stop Golden Hatch", function()
+local eggName="Golden Air Egg" -- Set to the egg you want to hatch
+local TripleHatch=false -- Set to true if you want triple hatch (gamepass needed)
+_G.Stop=true -- Set to true to stop the script.
+
+
+local eggRemote=game: GetService ("Workspace")["__THINGS"]["__REMOTES"]["buy egg"]
+
+while wait () do
+    eggRemote:InvokeServer({eggName, TripleHatch})
+    if _G.Stop then
+        break
+    end
+end
+end) 
+
+new7777:Button("Golden Cracked Egg", function()
+local eggName="Golden Cracked Egg" -- Set to the egg you want to hatch
+local TripleHatch=false -- Set to true if you want triple hatch (gamepass needed)
+_G.Stop=false -- Set to true to stop the script.
+
+
+local eggRemote=game: GetService ("Workspace")["__THINGS"]["__REMOTES"]["buy egg"]
+
+while wait () do
+    eggRemote:InvokeServer({eggName, TripleHatch})
+    if _G.Stop then
+        break
+    end
+end
+end) 
+
+new7777:Button("Golden Spotted Egg", function()
+local eggName="Golden Spotted Egg" -- Set to the egg you want to hatch
+local TripleHatch=false -- Set to true if you want triple hatch (gamepass needed)
+_G.Stop=false -- Set to true to stop the script.
+
+
+local eggRemote=game: GetService ("Workspace")["__THINGS"]["__REMOTES"]["buy egg"]
+
+while wait () do
+    eggRemote:InvokeServer({eggName, TripleHatch})
+    if _G.Stop then
+        break
+    end
+end
+end) 
+
+new7777:Button("Golden Wood Egg", function()
+local eggName="Golden Wood Egg" -- Set to the egg you want to hatch
+local TripleHatch=false -- Set to true if you want triple hatch (gamepass needed)
+_G.Stop=false -- Set to true to stop the script.
+
+
+local eggRemote=game: GetService ("Workspace")["__THINGS"]["__REMOTES"]["buy egg"]
+
+while wait () do
+    eggRemote:InvokeServer({eggName, TripleHatch})
+    if _G.Stop then
+        break
+    end
+end
+end) 
+
+new7777:Button("Golden Grass Egg", function()
+local eggName="Golden Grass Egg" -- Set to the egg you want to hatch
+local TripleHatch=false -- Set to true if you want triple hatch (gamepass needed)
+_G.Stop=false -- Set to true to stop the script.
+
+
+local eggRemote=game: GetService ("Workspace")["__THINGS"]["__REMOTES"]["buy egg"]
+
+while wait () do
+    eggRemote:InvokeServer({eggName, TripleHatch})
+    if _G.Stop then
+        break
+    end
+end
+end) 
+
+new7777:Button("Golden Beachball Egg", function()
+local eggName="Golden Beachball Egg" -- Set to the egg you want to hatch
+local TripleHatch=false -- Set to true if you want triple hatch (gamepass needed)
+_G.Stop=false -- Set to true to stop the script.
+
+
+local eggRemote=game: GetService ("Workspace")["__THINGS"]["__REMOTES"]["buy egg"]
+
+while wait () do
+    eggRemote:InvokeServer({eggName, TripleHatch})
+    if _G.Stop then
+        break
+    end
+end
+end) 
+
+new7777:Button("Golden Coconut Egg", function()
+local eggName="Golden Coconut Egg" -- Set to the egg you want to hatch
+local TripleHatch=false -- Set to true if you want triple hatch (gamepass needed)
+_G.Stop=false -- Set to true to stop the script.
+
+
+local eggRemote=game: GetService ("Workspace")["__THINGS"]["__REMOTES"]["buy egg"]
+
+while wait () do
+    eggRemote:InvokeServer({eggName, TripleHatch})
+    if _G.Stop then
+        break
+    end
+end
+end) 
+
+new7777:Button("Golden Rock Egg", function()
+local eggName="Golden Rock Egg" -- Set to the egg you want to hatch
+local TripleHatch=false -- Set to true if you want triple hatch (gamepass needed)
+_G.Stop=false -- Set to true to stop the script.
+
+
+local eggRemote=game: GetService ("Workspace")["__THINGS"]["__REMOTES"]["buy egg"]
+
+while wait () do
+    eggRemote:InvokeServer({eggName, TripleHatch})
+    if _G.Stop then
+        break
+    end
+end
+end) 
+
+new7777:Button("Golden Geode Egg", function()
+local eggName="Golden Geode Egg" -- Set to the egg you want to hatch
+local TripleHatch=false -- Set to true if you want triple hatch (gamepass needed)
+_G.Stop=false -- Set to true to stop the script.
+
+
+local eggRemote=game: GetService ("Workspace")["__THINGS"]["__REMOTES"]["buy egg"]
+
+while wait () do
+    eggRemote:InvokeServer({eggName, TripleHatch})
+    if _G.Stop then
+        break
+    end
+end
+end) 
+
+new7777:Button("Golden Snow Egg", function()
+local eggName="Golden Snow Egg" -- Set to the egg you want to hatch
+local TripleHatch=false -- Set to true if you want triple hatch (gamepass needed)
+_G.Stop=false -- Set to true to stop the script.
+
+
+local eggRemote=game: GetService ("Workspace")["__THINGS"]["__REMOTES"]["buy egg"]
+
+while wait () do
+    eggRemote:InvokeServer({eggName, TripleHatch})
+    if _G.Stop then
+        break
+    end
+end
+end) 
+
+new7777:Button("Golden Ice Egg", function()
+local eggName="Golden Ice Egg" -- Set to the egg you want to hatch
+local TripleHatch=false -- Set to true if you want triple hatch (gamepass needed)
+_G.Stop=false -- Set to true to stop the script.
+
+
+local eggRemote=game: GetService ("Workspace")["__THINGS"]["__REMOTES"]["buy egg"]
+
+while wait () do
+    eggRemote:InvokeServer({eggName, TripleHatch})
+    if _G.Stop then
+        break
+    end
+end
+end) 
+
+new7777:Button("Golden Icicle Egg", function()
+local eggName="Golden Icicle Egg" -- Set to the egg you want to hatch
+local TripleHatch=false -- Set to true if you want triple hatch (gamepass needed)
+_G.Stop=false -- Set to true to stop the script.
+
+
+local eggRemote=game: GetService ("Workspace")["__THINGS"]["__REMOTES"]["buy egg"]
+
+while wait () do
+    eggRemote:InvokeServer({eggName, TripleHatch})
+    if _G.Stop then
+        break
+    end
+end
+end) 
+
+new7777:Button("Golden Yeti Egg", function()
+local eggName="Golden Yeti Egg" -- Set to the egg you want to hatch
+local TripleHatch=false -- Set to true if you want triple hatch (gamepass needed)
+_G.Stop=false -- Set to true to stop the script.
+
+
+local eggRemote=game: GetService ("Workspace")["__THINGS"]["__REMOTES"]["buy egg"]
+
+while wait () do
+    eggRemote:InvokeServer({eggName, TripleHatch})
+    if _G.Stop then
+        break
+    end
+end
+end) 
+
+new7777:Button("Golden Cactus Egg", function()
+local eggName="Golden Cactus Egg" -- Set to the egg you want to hatch
+local TripleHatch=false -- Set to true if you want triple hatch (gamepass needed)
+_G.Stop=false -- Set to true to stop the script.
+
+
+local eggRemote=game: GetService ("Workspace")["__THINGS"]["__REMOTES"]["buy egg"]
+
+while wait () do
+    eggRemote:InvokeServer({eggName, TripleHatch})
+    if _G.Stop then
+        break
+    end
+end
+end) 
+
+new7777:Button("Golden Spiked Egg", function()
+local eggName="Golden Spiked Egg" -- Set to the egg you want to hatch
+local TripleHatch=false -- Set to true if you want triple hatch (gamepass needed)
+_G.Stop=false -- Set to true to stop the script.
+
+
+local eggRemote=game: GetService ("Workspace")["__THINGS"]["__REMOTES"]["buy egg"]
+
+while wait () do
+    eggRemote:InvokeServer({eggName, TripleHatch})
+    if _G.Stop then
+        break
+    end
+end
+end) 
+
+new7777:Button("Golden Obsidian Egg", function()
+local eggName="Golden Obsidian Egg" -- Set to the egg you want to hatch
+local TripleHatch=false -- Set to true if you want triple hatch (gamepass needed)
+_G.Stop=false -- Set to true to stop the script.
+
+
+local eggRemote=game: GetService ("Workspace")["__THINGS"]["__REMOTES"]["buy egg"]
+
+while wait () do
+    eggRemote:InvokeServer({eggName, TripleHatch})
+    if _G.Stop then
+        break
+    end
+end
+end)
+
+new7777:Button("Golden Magma Egg", function()
+local eggName="Golden Magma Egg" -- Set to the egg you want to hatch
+local TripleHatch=false -- Set to true if you want triple hatch (gamepass needed)
+_G.Stop=false -- Set to true to stop the script.
+
+
+local eggRemote=game: GetService ("Workspace")["__THINGS"]["__REMOTES"]["buy egg"]
+
+while wait () do
+    eggRemote:InvokeServer({eggName, TripleHatch})
+    if _G.Stop then
+        break
+    end
+end
+end) 
+
+new7777:Button("Golden Enchanted Egg", function()
+local eggName="Golden Enchanted Egg" -- Set to the egg you want to hatch
+local TripleHatch=false -- Set to true if you want triple hatch (gamepass needed)
+_G.Stop=false -- Set to true to stop the script.
+
+
+local eggRemote=game: GetService ("Workspace")["__THINGS"]["__REMOTES"]["buy egg"]
+
+while wait () do
+    eggRemote:InvokeServer({eggName, TripleHatch})
+    if _G.Stop then
+        break
+    end
+end
+end) 
+
+new7777:Button("Golden Relic Egg", function()
+local eggName="Golden Relic Egg" -- Set to the egg you want to hatch
+local TripleHatch=false -- Set to true if you want triple hatch (gamepass needed)
+_G.Stop=false -- Set to true to stop the script.
+
+
+local eggRemote=game: GetService ("Workspace")["__THINGS"]["__REMOTES"]["buy egg"]
+
+while wait () do
+    eggRemote:InvokeServer({eggName, TripleHatch})
+    if _G.Stop then
+        break
+    end
+end
+end) 
+
+new7777:Button("Golden Samurai Egg", function()
+local eggName="Golden Samurai Egg" -- Set to the egg you want to hatch
+local TripleHatch=false -- Set to true if you want triple hatch (gamepass needed)
+_G.Stop=false -- Set to true to stop the script.
+
+
+local eggRemote=game: GetService ("Workspace")["__THINGS"]["__REMOTES"]["buy egg"]
+
+while wait () do
+    eggRemote:InvokeServer({eggName, TripleHatch})
+    if _G.Stop then
+        break
+    end
+end
+end) 
+
+new7777:Button("Golden Haunted Egg", function()
+local eggName="Golden Haunted Egg" -- Set to the egg you want to hatch
+local TripleHatch=false -- Set to true if you want triple hatch (gamepass needed)
+_G.Stop=false -- Set to true to stop the script.
+
+
+local eggRemote=game: GetService ("Workspace")["__THINGS"]["__REMOTES"]["buy egg"]
+
+while wait () do
+    eggRemote:InvokeServer({eggName, TripleHatch})
+    if _G.Stop then
+        break
+    end
+end
+end) 
+
+new7777:Button("Golden Hell Egg", function()
+local eggName="Golden Hell Egg" -- Set to the egg you want to hatch
+local TripleHatch=false -- Set to true if you want triple hatch (gamepass needed)
+_G.Stop=false -- Set to true to stop the script.
+
+
+local eggRemote=game: GetService ("Workspace")["__THINGS"]["__REMOTES"]["buy egg"]
+
+while wait () do
+    eggRemote:InvokeServer({eggName, TripleHatch})
+    if _G.Stop then
+        break
+    end
+end
+end) 
+
+new7777:Button("Golden Heaven Egg", function()
+local eggName="Golden Heaven Egg" -- Set to the egg you want to hatch
+local TripleHatch=false -- Set to true if you want triple hatch (gamepass needed)
+_G.Stop=false -- Set to true to stop the script.
+
+
+local eggRemote=game: GetService ("Workspace")["__THINGS"]["__REMOTES"]["buy egg"]
+
+while wait () do
+    eggRemote:InvokeServer({eggName, TripleHatch})
+    if _G.Stop then
+        break
+    end
+end
+end) 
+
+new7777:Button("Golden Empyrean Egg", function()
+local eggName="Golden Empyrean Egg" -- Set to the egg you want to hatch
+local TripleHatch=false -- Set to true if you want triple hatch (gamepass needed)
+_G.Stop=false -- Set to true to stop the script.
+
+
+local eggRemote=game: GetService ("Workspace")["__THINGS"]["__REMOTES"]["buy egg"]
+
+while wait () do
+    eggRemote:InvokeServer({eggName, TripleHatch})
+    if _G.Stop then
+        break
+    end
+end
+end) 
+
+new7777:Button("Golden Metal Egg", function()
+local eggName="Golden Metal Egg" -- Set to the egg you want to hatch
+local TripleHatch=false -- Set to true if you want triple hatch (gamepass needed)
+_G.Stop=false -- Set to true to stop the script.
+
+
+local eggRemote=game: GetService ("Workspace")["__THINGS"]["__REMOTES"]["buy egg"]
+
+while wait () do
+    eggRemote:InvokeServer({eggName, TripleHatch})
+    if _G.Stop then
+        break
+    end
+end
+end) 
+
+new7777:Button("Golden Tech Egg", function()
+local eggName="Golden Tech Egg" -- Set to the egg you want to hatch
+local TripleHatch=false -- Set to true if you want triple hatch (gamepass needed)
+_G.Stop=false -- Set to true to stop the script.
+
+
+local eggRemote=game: GetService ("Workspace")["__THINGS"]["__REMOTES"]["buy egg"]
+
+while wait () do
+    eggRemote:InvokeServer({eggName, TripleHatch})
+    if _G.Stop then
+        break
+    end
+end
+end) 
+
+new7777:Button("Golden Titanium Egg", function()
+local eggName="Golden Titanium Egg" -- Set to the egg you want to hatch
+local TripleHatch=false -- Set to true if you want triple hatch (gamepass needed)
+_G.Stop=false -- Set to true to stop the script.
+
+
+local eggRemote=game: GetService ("Workspace")["__THINGS"]["__REMOTES"]["buy egg"]
+
+while wait () do
+    eggRemote:InvokeServer({eggName, TripleHatch})
+    if _G.Stop then
+        break
+    end
+end
+end) 
+
+new7777:Button("Golden Dark Tech Egg", function()
+local eggName="Golden Dark Tech Egg" -- Set to the egg you want to hatch
+local TripleHatch=false -- Set to true if you want triple hatch (gamepass needed)
+_G.Stop=false -- Set to true to stop the script.
+
+
+local eggRemote=game: GetService ("Workspace")["__THINGS"]["__REMOTES"]["buy egg"]
+
+while wait () do
+    eggRemote:InvokeServer({eggName, TripleHatch})
+    if _G.Stop then
+        break
+    end
+end
+end) 
+
+new7777:Button("Golden Steampunk Egg", function()
+local eggName="Golden Steampunk Egg" -- Set to the egg you want to hatch
+local TripleHatch=false -- Set to true if you want triple hatch (gamepass needed)
+_G.Stop=false -- Set to true to stop the script.
+
+
+local eggRemote=game: GetService ("Workspace")["__THINGS"]["__REMOTES"]["buy egg"]
+
+while wait () do
+    eggRemote:InvokeServer({eggName, TripleHatch})
+    if _G.Stop then
+        break
+    end
+end
+end) 
+
+new7777:Button("Golden Mechanical Egg", function()
+local eggName="Golden Mechanical Egg" -- Set to the egg you want to hatch
+local TripleHatch=false -- Set to true if you want triple hatch (gamepass needed)
+_G.Stop=false -- Set to true to stop the script.
+
+
+local eggRemote=game: GetService ("Workspace")["__THINGS"]["__REMOTES"]["buy egg"]
+
+while wait () do
+    eggRemote:InvokeServer({eggName, TripleHatch})
+    if _G.Stop then
+        break
+    end
+end
+end) 
+
+new7777:Button("Golden Lab Egg", function()
+local eggName="Golden Lab Egg" -- Set to the egg you want to hatch
+local TripleHatch=false -- Set to true if you want triple hatch (gamepass needed)
+_G.Stop=false -- Set to true to stop the script.
+
+
+local eggRemote=game: GetService ("Workspace")["__THINGS"]["__REMOTES"]["buy egg"]
+
+while wait () do
+    eggRemote:InvokeServer({eggName, TripleHatch})
+    if _G.Stop then
+        break
+    end
+end
+end) 
+
+new7777:Button("Golden Chemical Egg", function()
+local eggName="Golden Chemical Egg" -- Set to the egg you want to hatch
+local TripleHatch=false -- Set to true if you want triple hatch (gamepass needed)
+_G.Stop=false -- Set to true to stop the script.
+
+
+local eggRemote=game: GetService ("Workspace")["__THINGS"]["__REMOTES"]["buy egg"]
+
+while wait () do
+    eggRemote:InvokeServer({eggName, TripleHatch})
+    if _G.Stop then
+        break
+    end
+end
+end)
+
+new7777:Button("Golden Alien Egg", function()
+local eggName="Golden Alien Egg" -- Set to the egg you want to hatch
+local TripleHatch=false -- Set to true if you want triple hatch (gamepass needed)
+_G.Stop=false -- Set to true to stop the script.
+
+
+local eggRemote=game: GetService ("Workspace")["__THINGS"]["__REMOTES"]["buy egg"]
+
+while wait () do
+    eggRemote:InvokeServer({eggName, TripleHatch})
+    if _G.Stop then
+        break
+    end
+end
+end) 
+
+new7777:Button("Golden Martian Egg", function()
+local eggName="Golden Martian Egg" -- Set to the egg you want to hatch
+local TripleHatch=false -- Set to true if you want triple hatch (gamepass needed)
+_G.Stop=false -- Set to true to stop the script.
+
+
+local eggRemote=game: GetService ("Workspace")["__THINGS"]["__REMOTES"]["buy egg"]
+
+while wait () do
+    eggRemote:InvokeServer({eggName, TripleHatch})
+    if _G.Stop then
+        break
+    end
+end
+end) 
+
+new7777:Button("Golden Planet Egg", function()
+local eggName="Golden Planet Egg" -- Set to the egg you want to hatch
+local TripleHatch=false -- Set to true if you want triple hatch (gamepass needed)
+_G.Stop=false -- Set to true to stop the script.
+
+
+local eggRemote=game: GetService ("Workspace")["__THINGS"]["__REMOTES"]["buy egg"]
+
+while wait () do
+    eggRemote:InvokeServer({eggName, TripleHatch})
+    if _G.Stop then
+        break
+    end
+end
+end)
+
+new7777:Button("Golden Glitch Egg", function()
+local eggName="Golden Glitch Egg" -- Set to the egg you want to hatch
+local TripleHatch=false -- Set to true if you want triple hatch (gamepass needed)
+_G.Stop=false -- Set to true to stop the script.
+
+
+local eggRemote=game: GetService ("Workspace")["__THINGS"]["__REMOTES"]["buy egg"]
+
+while wait () do
+    eggRemote:InvokeServer({eggName, TripleHatch})
+    if _G.Stop then
+        break
+    end
+end
+end)
+
+new7777:Button("Golden Hacker Egg", function()
+local eggName="Golden Hacker Egg" -- Set to the egg you want to hatch
+local TripleHatch=false -- Set to true if you want triple hatch (gamepass needed)
+_G.Stop=false -- Set to true to stop the script.
+
+
+local eggRemote=game: GetService ("Workspace")["__THINGS"]["__REMOTES"]["buy egg"]
+
+while wait () do
+    eggRemote:InvokeServer({eggName, TripleHatch})
+    if _G.Stop then
+        break
+    end
+end
+end) 
+
+new7777:Button("Golden Axolotl Egg", function()
+local eggName="Golden Axolotl Egg" -- Set to the egg you want to hatch
+local TripleHatch=false -- Set to true if you want triple hatch (gamepass needed)
+_G.Stop=false -- Set to true to stop the script.
+
+
+local eggRemote=game: GetService ("Workspace")["__THINGS"]["__REMOTES"]["buy egg"]
+
+while wait () do
+    eggRemote:InvokeServer({eggName, TripleHatch})
+    if _G.Stop then
+        break
+    end
+end
+end)
+
+new7777:Button("Golden Shiny Axolotl Egg", function()
+local eggName="Golden Shiny Axolotl Egg" -- Set to the egg you want to hatch
+local TripleHatch=false -- Set to true if you want triple hatch (gamepass needed)
+_G.Stop=false -- Set to true to stop the script.
+
+
+local eggRemote=game: GetService ("Workspace")["__THINGS"]["__REMOTES"]["buy egg"]
+
+while wait () do
+    eggRemote:InvokeServer({eggName, TripleHatch})
+    if _G.Stop then
+        break
+    end
+end
+end) 
+
+new7777:Button("Golden Pixel Egg", function()
+local eggName="Golden Pixel Egg" -- Set to the egg you want to hatch
+local TripleHatch=false -- Set to true if you want triple hatch (gamepass needed)
+_G.Stop=false -- Set to true to stop the script.
+
+
+local eggRemote=game: GetService ("Workspace")["__THINGS"]["__REMOTES"]["buy egg"]
+
+while wait () do
+    eggRemote:InvokeServer({eggName, TripleHatch})
+    if _G.Stop then
+        break
+    end
+end
+end) 
+
+new7777:Button("Golden Spotted Pixel Egg", function()
+local eggName="Golden Spotted Pixel Egg" -- Set to the egg you want to hatch
+local TripleHatch=false -- Set to true if you want triple hatch (gamepass needed)
+_G.Stop=false -- Set to true to stop the script.
+
+
+local eggRemote=game: GetService ("Workspace")["__THINGS"]["__REMOTES"]["buy egg"]
+
+while wait () do
+    eggRemote:InvokeServer({eggName, TripleHatch})
+    if _G.Stop then
+        break
+    end
+end
+end)
+
+new7777:Button("Golden Rainbow Pixel Egg", function()
+local eggName="Golden Rainbow Pixel Egg" -- Set to the egg you want to hatch
+local TripleHatch=false -- Set to true if you want triple hatch (gamepass needed)
+_G.Stop=false -- Set to true to stop the script.
+
+
+local eggRemote=game: GetService ("Workspace")["__THINGS"]["__REMOTES"]["buy egg"]
+
+while wait () do
+    eggRemote:InvokeServer({eggName, TripleHatch})
+    if _G.Stop then
+        break
+    end
+end
+end) 
+
+local new77777 = eggTab:Section("Eggs | Remove Egg Animation")
+
+new77777:Button("Remove Egg Animation", function()
+_G.pettable = {}
+local mod = getsenv(game:GetService("Players").LocalPlayer.PlayerScripts.Scripts.Game["Open Eggs"])
+local f
+f = hookfunction(mod.OpenEgg, function(a1, a2)
+for i, v in pairs(a2) do
+table.insert(_G.pettable, tostring(v["uid"]))
+end
+return
+end)
+end)
+
+local new7778 = miscTab:Section("Miscs | Random")
+
+new7778:Button("Gamepass", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/9HL9qwgW"))()
+end)
+
+new7778:Button("Triple Damage", function()
+local Sound = Instance.new("Sound",game:GetService("SoundService"))
+Sound.SoundId = "rbxassetid://232127604"
+Sound:Play()
+game:GetService("Players").LocalPlayer.PlayerGui.Main.Boosts:FindFirstChild("Triple Damage")
+        workspace.__THINGS.__REMOTES["activate boost"]:FireServer({[1] = "Triple Damage"})
+    print("Triple damage boost checked")
+    game.StarterGui:SetCore("SendNotification", {
+    Title = "JioaHub";
+    Text = "Triple Damage Activate";
+    Icon = "rbxthumb://type=Asset&id=5107182114&w=150&h=150";
+    Duration = 3;
+})
+end) 
+new7778:Button("Triple Coins", function()
+local Sound = Instance.new("Sound",game:GetService("SoundService"))
+Sound.SoundId = "rbxassetid://232127604"
+Sound:Play()
+game:GetService("Players").LocalPlayer.PlayerGui.Main.Boosts:FindFirstChild("Triple Coins")
+        workspace.__THINGS.__REMOTES["activate boost"]:FireServer({[1] = "Triple Damage"})
+    print("Triple coins boost checked")
+    game.StarterGui:SetCore("SendNotification", {
+    Title = "JioaHub";
+    Text = "Triple Coins Activate";
+    Icon = "rbxthumb://type=Asset&id=5107182114&w=150&h=150";
+    Duration = 3;
+}) 
+end) 
+
+new7778:Button("Super Lucky", function()
+local Sound = Instance.new("Sound",game:GetService("SoundService"))
+Sound.SoundId = "rbxassetid://232127604"
+Sound:Play()
+game:GetService("Players").LocalPlayer.PlayerGui.Main.Boosts:FindFirstChild("Super Lucky")
+        workspace.__THINGS.__REMOTES["activate boost"]:FireServer({[1] = "Super Lucky"})
+    print("Super lucky boost checked")
+    game.StarterGui:SetCore("SendNotification", {
+    Title = "JioaHub";
+    Text = "Super Lucky Activate";
+    Icon = "rbxthumb://type=Asset&id=5107182114&w=150&h=150";
+    Duration = 3;
+})
+end)
+
+new7778:Button("Ultra Lucky", function()
+local Sound = Instance.new("Sound",game:GetService("SoundService"))
+Sound.SoundId = "rbxassetid://232127604"
+Sound:Play()
+game:GetService("Players").LocalPlayer.PlayerGui.Main.Boosts:FindFirstChild("Ultra Lucky")
+        workspace.__THINGS.__REMOTES["activate boost"]:FireServer({[1] = "Ultra Lucky"})
+    print("Ultra lucky boost checked")
+    game.StarterGui:SetCore("SendNotification", {
+    Title = "JioaHub";
+    Text = "Ultra Lucky Activate";
+    Icon = "rbxthumb://type=Asset&id=5107182114&w=150&h=150";
+    Duration = 3;
+})
+end)
